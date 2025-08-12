@@ -7,7 +7,7 @@
 :root {
     --font-family: "Orbitron", sans-serif;
     --text-color: white;
-    --background-color: #83B0BD;
+    --background-color: white;
     --input-background-color: transparent;
     --button-background-color: white;
     --copied-background-color: #83f5bc;
@@ -127,15 +127,7 @@ textarea::placeholder {
     gap: 0.4em;
     width: 100%;
 }
-/*
-.summary-length-input {
-    flex-grow: 1;
-    appearance: none;
-    height: 0.8em;
-    border-radius: 15px;
-    background-color: var(--button-background-color);
-}
-*/
+
 .summary-length-text {
     font-size: 0.7rem;
 }
@@ -173,11 +165,7 @@ input[type="range"]:focus,
 /* Hover States */
 .button:not(:disabled):hover,
 /*
-.summary-length-input:not(:disabled):hover {
-    background-color: var(--hover-color);
-    cursor: pointer;
-}
-*/
+
 
 /* Disabled States */
 .disabled,
@@ -199,56 +187,6 @@ textarea:disabled::placeholder {
     background-color: var(--failed-background-color) !important;
 }
 
-/* Slider Thumb Styles */
-/* WebKit (Chrome, Safari, newer versions of Edge) */
-/*
-.summary-length-input::-webkit-slider-thumb {
-    appearance: none;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    background: var(--slider-thumb-color);
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.summary-length-input:disabled::-webkit-slider-thumb {
-    background-color: var(--disabled-color);
-    cursor: not-allowed;
-}
-*/
-/* Firefox */
-/*
-.summary-length-input::-moz-range-thumb {
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    background: var(--slider-thumb-color);
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.summary-length-input:disabled::-moz-range-thumb {
-    background-color: var(--disabled-color);
-    cursor: not-allowed;
-}
-*/
-/* Microsoft Edge (older versions) */
-/*
-.summary-length-input::-ms-thumb {
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    background: var(--slider-thumb-color);
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.summary-length-input:disabled::-ms-thumb {
-    background-color: var(--disabled-color);
-    cursor: not-allowed;
-}
-*/
 
 /* Summary Output, Loading, and Error Sections */
 .summary-output-section {
