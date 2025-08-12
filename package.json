@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "0.24.3",
+    "@tailwindcss/vite": "^4.1.11",
+    "daisyui": "^5.0.50",
+    "tailwindcss": "^4.1.11",
     "vite": "latest"
-  },
-  "devDependencies": {}
+  }
 }

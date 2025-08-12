@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* Root Variables */
 :root {
     --font-family: "Orbitron", sans-serif;
